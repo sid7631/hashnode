@@ -9,21 +9,22 @@ tags: qr-code, qr-code-generator, react-qr
 
 ---
 
-**Introduction**
+## **I**ntroduction
 
 Welcome to this tutorial on how to create a QR code generator website. QR Codes, or Quick Response codes, are becoming increasingly popular as a means of sharing information quickly and easily. In this tutorial, we’ll walk you through the process of creating a website that generates QR codes for any text or URL you enter.
 
-  
-**Requirements**
+## Requirements
 
 * HTML, CSS, JavaScript
     
 * Code Editor / VS Code
     
 
-To get started, we need to create the basic structure of our webstire using HTML and style it using CSS.
+To get started, we need to create the basic structure of our website using HTML and style it using CSS.
 
-*index.html*
+## Getting Started
+
+### *index.html*
 
 ```xml
 <!DOCTYPE html>
@@ -53,7 +54,7 @@ To get started, we need to create the basic structure of our webstire using HTML
 </html>
 ```
 
-app.css
+### *app.css*
 
 ```css
 .bg-white {
@@ -130,7 +131,7 @@ Add to index.html
 <script src="app.js"> </script>
 ```
 
-app.js
+### app.js
 
 ```javascript
 let btn = document.getElementById('generate-qr')
@@ -196,5 +197,7 @@ And that’s it! We’ve created a simple yet effective QR code generator websit
 With a little more time and effort, you could add additional features like the ability to change the colour or size of the QR code.
 
 Thanks
+
+## GitHub repository
 
 %[https://github.com/sid7631/qr-code-generator]
